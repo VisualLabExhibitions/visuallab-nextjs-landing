@@ -1,14 +1,20 @@
-import { main } from "framer-motion/client";
+
 import Service from "@/components/home/servicesection";
-import Testimonials from "@/components/home/testimonials";
 import Aboutsection from "@/components/home/Aboutsection";
+import HowWeWork from  "@/components/home/HowWeWork";
+import ClientTestimonials from "@/components/home/ClientTestimonials";
+import Testimonialslide from "@/components/home/Testimonialslide";
+
 
 export default function HomePage(){
   return(
     <div>
       <Aboutsection />
       <Service />
-      <Testimonials/>
+      <HowWeWork />
+      <ClientTestimonials />
+      <Testimonialslide />
+
     </div>
   );
 }
