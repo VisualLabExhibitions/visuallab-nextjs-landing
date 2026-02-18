@@ -1,6 +1,6 @@
 
 import Service from "@/components/home/servicesection";
-import Aboutsection from "@/components/home/Aboutsection";
+import AboutSection from "@/components/home/AboutSection";
 import HowWeWork from  "@/components/home/HowWeWork";
 import ClientTestimonials from "@/components/home/ClientTestimonials";
 import Hero from "@/components/home/Hero";
@@ -10,7 +10,7 @@ export default function HomePage(){
   return(
     <div>
       <Hero />
-      <Aboutsection />
+      <AboutSection />
       <Service />
       <HowWeWork />
       <ClientTestimonials />
