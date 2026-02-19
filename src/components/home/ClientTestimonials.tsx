@@ -6,7 +6,7 @@ export default function ClientTestimonials(){
         <section style={{backgroundImage:"url('/images/section-bg.jpg')", backgroundSize:'cover', backgroundPosition:'center'}}>
             <div className="bg-black/40 py-12">
                 <div className="max-w-6xl mx-auto">
-                <h2 className="pb-7 font-medium text-center text-3xl text-white bg-u">What our Client Says</h2>
+                <h2 className="pb-7 font-bold text-center text-3xl text-white bg-u">What our Client Says</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 text-center">
 
                     <div className="shadow-lg rounded-lg bg-black/10 text-white mx-2 p-4 border border-white-100">
