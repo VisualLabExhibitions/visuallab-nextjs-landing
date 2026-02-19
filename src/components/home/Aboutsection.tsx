@@ -22,7 +22,6 @@ export default function AboutSection(){
 
                               
                             <Link href="/contact">
-                            <Button> View Our Works </Button> 
                             </Link>        
                         </div>
 
