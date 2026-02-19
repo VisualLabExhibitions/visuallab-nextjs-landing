@@ -1,7 +1,7 @@
 export default function Services(){
     return (
         <div>
-            <section className="bg-[var(--theme-primary)] py-12">
+            <section className="bg-[var(--theme-primary)] py-16">
 
                 <div className="max-w-6xl text-white text-3xl font-bold mx-auto text-center pb-4">Complete exhibition solutions from design to final installation.
 </div>

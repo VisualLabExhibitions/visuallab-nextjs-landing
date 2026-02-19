@@ -20,7 +20,7 @@ export default function Navbar() {
 
       {/* Right side */}
       <div className="flex items-center space-x-2">
-        <FaHome size={20} className="text-red-500" /> 
+        <FaHome size={20} className="text-black-500" /> 
         <span>All Karama, Dubai</span>
       </div>
     </div>            
