@@ -1,5 +1,5 @@
 
-import Service from "@/components/home/servicesection";
+import Service from "@/components/home/ServiceSection";
 import AboutSection from "@/components/home/AboutSection";
 import HowWeWork from  "@/components/home/HowWeWork";
 import ClientTestimonials from "@/components/home/ClientTestimonials";
@@ -15,7 +15,7 @@ export default function HomePage(){
       <HowWeWork />
       <ClientTestimonials />
     </div>
-  );
+  ); 
 }
 
 
