@@ -21,8 +21,7 @@ export default function AboutSection(){
                             </p>
 
                               
-                            <Link href="/contact">
-                            </Link>        
+     
                         </div>
 
                         <div className="relative w-full h-96"> 
