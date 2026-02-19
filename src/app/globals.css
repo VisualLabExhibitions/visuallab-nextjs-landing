@@ -49,6 +49,7 @@
 :root {
 
   --theme-primary: #801D3B;
+  --theme-bg: #FFF6F9;
   
   --radius: 0.625rem;
   --background: oklch(1 0 0);

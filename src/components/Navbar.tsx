@@ -9,9 +9,9 @@ export default function Navbar() {
   return (
     <div>
     
-      <section className="bg-red-200">
+      <section className="bg-[var(--theme-primary)]">
   <div className="max-w-6xl mx-auto">
-    <div className="flex justify-between items-center p-3">
+    <div className="flex justify-between items-center p-3 text-white">
       {/* Left side */}
       <div className="flex items-center space-x-2">
         <FaPhoneAlt size={20} /> 
@@ -29,7 +29,7 @@ export default function Navbar() {
 
 
     <nav className="bg-white shadow-md text-black">
-      <div className="max-w-6xl mx-auto py-6 px-4 flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-6xl mx-auto py-4 px-4 flex flex-col md:flex-row items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold">
           <Image

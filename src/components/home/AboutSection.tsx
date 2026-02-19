@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function AboutSection(){
     return(
         <div>
-            <section className="bg-gray-100 py-16">
+            <section className="bg-[var(--theme-bg)] py-16">
                 <div className="max-w-6xl mx-auto">
                     <div className=" grid grid-cols-3 px-4">
+
+
 
                         <div className="col-span-2">
                             <h2 className="text-4xl font-bold pb-4">
