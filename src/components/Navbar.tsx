@@ -11,7 +11,7 @@ export default function Navbar() {
     
       <section className="bg-red-200">
   <div className="max-w-6xl mx-auto">
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-3">
       {/* Left side */}
       <div className="flex items-center space-x-2">
         <FaPhoneAlt size={20} /> 
