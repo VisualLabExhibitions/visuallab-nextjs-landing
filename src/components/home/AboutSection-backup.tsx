@@ -21,7 +21,9 @@ export default function AboutSection(){
                             </p>
 
                               
-     
+                            <Link href="/contact">
+                            <Button> View Our Works </Button> 
+                            </Link>        
                         </div>
 
                         <div className="relative w-full h-96"> 
