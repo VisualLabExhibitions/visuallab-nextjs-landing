@@ -20,10 +20,7 @@ export default function AboutSection(){
                                 Our multi-disciplinary team of architects, designers, fabricators, and project managers ensures seamless execution from concept to installation. We create custom stands that enhance brand visibility, attract visitors, and maximize ROI, understanding the importance of time, investment, and exceptional results for every exhibition.
                             </p>
 
-                              
-                            <Link href="/contact">
-                            <Button> View Our Works </Button> 
-                            </Link>        
+                        
                         </div>
 
                         <div className="relative w-full h-96"> 
