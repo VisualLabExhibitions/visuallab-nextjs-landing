@@ -19,9 +19,9 @@ export default function Navbar() {
       </div>
 
       {/* Right side */}
-      <div className="flex items-center space-x-2">
+      <div className="flex hidden md:flex items-center space-x-2">
         <FaHome size={20} className="text-black-500" /> 
-        <span>All Karama, Dubai</span>
+        <span>Al Karama, Dubai</span>
       </div>
     </div>            
   </div>  

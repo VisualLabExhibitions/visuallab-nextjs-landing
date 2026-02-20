@@ -21,7 +21,7 @@ export default function OurWorks() {
           {images.map((src, index) => (
             <div
               key={index}
-              className="relative w-full h-[203px] rounded-xl overflow-hidden shadow-md"
+              className="relative w-full aspect-[16/9] rounded-xl overflow-hidden shadow-md"
             >
               <Image
                 src={src}

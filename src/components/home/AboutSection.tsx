@@ -5,11 +5,9 @@ export default function AboutSection(){
         <div>
             <section className="bg-[var(--theme-bg)] py-16">
                 <div className="max-w-6xl mx-auto">
-                    <div className=" grid grid-cols-3 px-4">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-3 px-4">
 
-
-
-                        <div className="col-span-2">
+                        <div className="md:col-span-2">
                             <h2 className="text-4xl font-bold pb-4">
                                 At Visual Lab, our expert management team creates innovative, impactful exhibition solutions globally.
                             </h2>
@@ -19,8 +17,6 @@ export default function AboutSection(){
                             <p>
                                 Our multi-disciplinary team of architects, designers, fabricators, and project managers ensures seamless execution from concept to installation. We create custom stands that enhance brand visibility, attract visitors, and maximize ROI, understanding the importance of time, investment, and exceptional results for every exhibition.
                             </p>
-
-                        
                         </div>
 
                         <div className="relative w-full h-96"> 
