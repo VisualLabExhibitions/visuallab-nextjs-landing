@@ -1,57 +1,51 @@
+"use client";
 import Link from "next/link";
+import { useState} from "react";
 import Image from "next/image";
-import {FaHome} from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
 
+export default function Navbar(){
+const [isOpen,setIsOpen] = useState(false);
 
-export default function Navbar() {
-  return (
-    <div>
-    
-      <section className="bg-[var(--theme-primary)]">
-  <div className="max-w-6xl mx-auto">
-    <div className="flex justify-between items-center p-3 text-white">
-      {/* Left side */}
-      <div className="flex items-center space-x-2">
-        <FaPhoneAlt size={20} /> 
-        <span>Phone: +971 55 109 6009</span>
-      </div>
+  return(
+      <nav className="bg-white shadow-md text-black relative">
+        <div className="max-w-6xl mx-auto py-4 px-4 flex  md:flex-row items-center justify-between">
+          {/* Logo */}
+          <div className="text-xl font-bold">
+            <Image
+            src="/images/logo.png"
+            width={120}
+            height={110}
+            alt="Exhibition Stand Buliding"
+            className="object-cover"/>
+          </div>
 
-      {/* Right side */}
-      <div className="flex hidden md:flex items-center space-x-2">
-        <FaHome size={20} className="text-black-500" /> 
-        <span>Al Karama, Dubai</span>
-      </div>
-    </div>            
-  </div>  
-</section>
+          {/* Links */}
+          <div className="hidden md:flex flex-row gap-2 md:gap-8 mt-2 md:mt-0 font-medium">
+            <Link href="/" className="hover:text-red-500 transition">Home</Link>
+            <Link href="/about" className="hover:text-red-500 transition">About Us</Link>
+            <Link href="/services/exhibition-building" className="hover:text-red-500 transition">Exhibition Building</Link>
+            <Link href="/services/modular-design" className="hover:text-red-500 transition">Modular Design</Link>
+            <Link href="/services/custom-stands" className="hover:text-red-500 transition">Custom Stands Solutions</Link>
+          </div>
 
+          {/* Toggle bar */}
+          <div>
+          <button className="flex md:hidden text-xl border-black-500" onClick={() => setIsOpen(!isOpen)}>☰</button>
+          </div>
 
-    <nav className="bg-white shadow-md text-black">
-      <div className="max-w-6xl mx-auto py-4 px-4 flex flex-col md:flex-row items-center justify-between">
-        {/* Logo */}
-        <div className="text-xl font-bold">
-          <Image
-          src="/images/logo.png"
-          width={120}
-          height={110}
-          alt="Exhibition Stand Buliding"
-          className="object-cover"/>
+          { isOpen && (
+              <div className="flex flex-col md:hidden absolute top-full z-1 bg-gray-200 left-0 text-center p-4 w-full gap-4 font-medium">
+                <Link href="/" className="hover:text-red-500 transition">Home</Link>
+                <Link href="/about" className="hover:text-red-500 transition">About Us</Link>
+                <Link href="/services/exhibition-building" className="hover:text-red-500 transition">Exhibition Building</Link>
+                <Link href="/services/modular-design" className="hover:text-red-500 transition">Modular Design</Link>
+                <Link href="/services/custom-stands" className="hover:text-red-500 transition">Custom Stands Solutions</Link>
+              </div>
+            )
+          }
+
         </div>
-
-        {/* Links */}
-        <div className="flex flex-col md:flex-row gap-2 md:gap-8 mt-2 md:mt-0 font-medium">
-          <Link href="/" className="hover:text-red-500 transition">Home</Link>
-          <Link href="/about" className="hover:text-red-500 transition">About Us</Link>
-          <Link href="/services/exhibition-building" className="hover:text-red-500 transition">Exhibition Building</Link>
-          <Link href="/services/modular-design" className="hover:text-red-500 transition">Modular Design</Link>
-          <Link href="/services/custom-stands" className="hover:text-red-500 transition">Custom Stands Solutions</Link>
-        </div>
-      </div>
     </nav>
-    </div>
+
   );
 }
-
-
