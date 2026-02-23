@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Button from "@/components/ui/Button";
 
 export default function AboutSection(){
     return(
@@ -8,7 +7,7 @@ export default function AboutSection(){
                 <div className="max-w-6xl mx-auto">
                     <div className="grid sm:grid-cols-1 md:grid-cols-3 px-4">
 
-                        <div className="md:col-span-2" id="#about">
+                        <div className="md:col-span-2" id="about">
                             <h2 className="text-2xl md:text-4xl font-bold pb-4">
                                 At Visual Lab, our expert management team creates innovative, impactful exhibition solutions globally.
                             </h2>

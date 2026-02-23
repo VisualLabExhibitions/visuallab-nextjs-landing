@@ -52,10 +52,10 @@ export default function Navbar() {
       >
         <nav className="flex flex-col gap-4 text-center font-medium">
           <Link href="/" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Home</Link>
-          <Link href="/about" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">About Us</Link>
-          <Link href="/services/exhibition-building" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Exhibition Building</Link>
-          <Link href="/services/modular-design" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Modular Design</Link>
-          <Link href="/services/custom-stands" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Custom Stands Solutions</Link>
+          <Link href="/#about" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">About Us</Link>
+          <Link href="/#services" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Exhibition Building</Link>
+          <Link href="/#our-works" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Our Works</Link>
+          <Link href="/#contact" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Contact Us</Link>
         </nav>
       </div>
     </nav>
