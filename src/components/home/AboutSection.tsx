@@ -1,14 +1,15 @@
 import Image from "next/image";
+import Button from "@/components/ui/Button";
 
 export default function AboutSection(){
     return(
         <div>
-            <section className="bg-[var(--theme-bg)] py-16">
+            <section className="bg-[var(--theme-bg)] py-8 md:py-16">
                 <div className="max-w-6xl mx-auto">
                     <div className="grid sm:grid-cols-1 md:grid-cols-3 px-4">
 
-                        <div className="md:col-span-2">
-                            <h2 className="text-4xl font-bold pb-4">
+                        <div className="md:col-span-2" id="#about">
+                            <h2 className="text-2xl md:text-4xl font-bold pb-4">
                                 At Visual Lab, our expert management team creates innovative, impactful exhibition solutions globally.
                             </h2>
                             <p className="pb-4">
@@ -17,6 +18,8 @@ export default function AboutSection(){
                             <p>
                                 Our multi-disciplinary team of architects, designers, fabricators, and project managers ensures seamless execution from concept to installation. We create custom stands that enhance brand visibility, attract visitors, and maximize ROI, understanding the importance of time, investment, and exceptional results for every exhibition.
                             </p>
+                             
+                            
                         </div>
 
                         <div className="relative w-full h-96"> 
@@ -32,3 +35,5 @@ export default function AboutSection(){
         </div>
     );    
 }
+
+

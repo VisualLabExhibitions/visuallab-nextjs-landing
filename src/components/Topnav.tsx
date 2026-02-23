@@ -8,7 +8,7 @@ export default function Topnav(){
 
                 <section className="bg-[var(--theme-primary)]">
                     <div className="max-w-6xl mx-auto">
-                        <div className="flex justify-between items-center p-3 text-white">
+                        <div className="flex justify-between items-center p-2 text-white">
                         {/* Left side */}
                         <div className="flex items-center space-x-2">
                             <FaPhoneAlt size={20} /> 
