@@ -1,3 +1,4 @@
+"use client";
 
 import {FaHome} from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";

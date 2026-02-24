@@ -9,7 +9,7 @@ export default function ClientTestimonials(){
                 <h2 className="pb-7 font-bold text-center text-2xl md:text-3xl text-white bg-u">What our Client Says</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 text-center">
 
-                    <div className="mb-4 shadow-lg rounded-lg bg-black/10 text-white mx-2 p-4 border border-white-100">
+                    <div className="mb-4 shadow-lg rounded-lg bg-black/10 hover:bg-black/40 transition-all duration-300 text-white mx-2 p-4 border border-white-100">
                         <h2 className="text-xl md:text-2xl font-medium pb-4">Sarah J.</h2>
                         <p className="md:text-lg reading">Visual Lab transformed our exhibition stand beyond our expectations. Professional, fast, and creative!</p> 
                           <div className="flex justify-center text-yellow-400 gap-1 mt-3">
@@ -18,7 +18,7 @@ export default function ClientTestimonials(){
                             ))}
                             </div>
                     </div>
-                     <div className="mb-4 shadow-lg rounded-lg bg-black/10 text-white mx-2 p-4 border border-white-300">
+                     <div className="mb-4 shadow-lg rounded-lg bg-black/10 hover:bg-black/40 transition-all duration-300 text-white mx-2 p-4 border border-white-300">
                         <h2 className="text-xl md:text-2xl font-medium pb-4">Ahmed K.</h2>
                         <p className="md:text-lg reading">The team delivered exactly what we envisioned. Installation was smooth, and attention to detail was excellent</p> 
                           <div className="flex justify-center text-yellow-400 gap-1 mt-3">
@@ -27,7 +27,7 @@ export default function ClientTestimonials(){
                             ))}
                             </div>
                     </div>
-                     <div className="mb-4 shadow-lg rounded-lg bg-black/10 text-white mx-2 p-4 border border-white-300">
+                     <div className="mb-4 shadow-lg rounded-lg bg-black/10 hover:bg-black/40 transition-all duration-300 text-white mx-2 p-4 border border-white-300">
                         <h2 className="text-xl md:text-2xl font-medium pb-4 text-white">Daniel Roberts</h2>
                         <p className="md:text-lg reading">Highly recommend! From design to finishing, everything was handled professionally and on time. </p> 
                             <div className="flex justify-center text-yellow-400 gap-1 mt-3">

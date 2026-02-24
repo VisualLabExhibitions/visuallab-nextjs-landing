@@ -11,19 +11,18 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto flex items-center justify-between py-2 px-4">
 
         {/* Logo */}
-        <div className="text-xl font-bold">
-
-          <Link href="/">
-            <Image
+        <div className="relative">
+        <Link href="/">
+          <Image
             src="/images/logo.png"
-            width={120}
-            height={110}
-            alt="Exhibition Stand Building"
-            className="object-cover"
+            alt="Logo"
+            width={195}
+            height={91}
+            className="object-contain h-12 w-auto md:h-17"
+            priority
           />
-          </Link>
-        
-        </div>
+        </Link>
+      </div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 font-medium">
@@ -36,7 +35,7 @@ export default function Navbar() {
 
         {/* Mobile Hamburger */}
         <button
-          className="md:hidden flex flex-col justify-between w-6 h-6"
+          className="md:hidden cursor-pointer flex flex-col justify-between w-6 h-6"
           onClick={() => setIsOpen(prev => !prev)}
         >
           <span className={`h-0.5 w-full bg-black transition-transform duration-300 ${isOpen ? "rotate-45 translate-y-2" : ""}`} />
