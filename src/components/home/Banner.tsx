@@ -70,7 +70,7 @@ export default function HomePageSlider() {
 
                 <a
                   href={slide.buttonLink}
-                  className="bg-[var(--theme-primary)] hover:bg-[#400719] text-white px-6 py-3 rounded-md font-semibold transition"
+                  className="bg-[var(--theme-primary)] hover:bg-[#400719] text-white px-4 py-2 md:px-6 md:py-3 rounded-md text-base md:text-lg font-semibold transition"
                 >
                   {slide.buttonText}
                 </a>
