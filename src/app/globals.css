@@ -31,7 +31,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-  --swiper-navigation-color: white; /* hide normally */
+  --swiper-navigation-color: rgb(218, 47, 47); /* hide normally */
   --swiper-navigation-size: 2rem; /* arrow size */
   transition: var(--swiper-navigation-color) 0.3s ease;
 }
