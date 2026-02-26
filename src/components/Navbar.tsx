@@ -12,7 +12,7 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="relative">
-        <Link href="/">
+        <Link href="/#">
           <Image
             src="/images/logo.png"
             alt="Logo"
@@ -47,7 +47,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div
         className={`md:hidden absolute top-full left-0 w-full bg-white/70 backdrop-blur-md shadow-lg z-20  transition-all duration-300
-          ${isOpen ? "max-h-96 opacity-100 p-4" : "max-h-0 opacity-0 p-0"}`}
+          ${isOpen ? "max-h-96 opacity-100 p-4 pointer-events-auto" : "max-h-0 opacity-0 p-0 pointer-events-none"}`}
       >
         <nav className="flex flex-col gap-4 text-center font-medium">
           <Link href="/" onClick={() => setIsOpen(false)} className="hover:text-red-500 transition">Home</Link>

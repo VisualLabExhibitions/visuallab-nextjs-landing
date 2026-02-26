@@ -3,6 +3,73 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+/*tesimonials*/
+
+.swiper-slide {background-color: transparent !important;}
+
+/*siwper css*/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/*next previous arrow of gallery pop up*/
+
+/* Swiper pagination bullets */
+.swiper-pagination-bullet {
+  background: #ffffff !important;   /* inactive bullet color */
+  opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--theme-primary) !important; /* active bullet color */
+  opacity: 1;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+  --swiper-navigation-color: white; /* hide normally */
+  --swiper-navigation-size: 2rem; /* arrow size */
+  transition: var(--swiper-navigation-color) 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  --swiper-navigation-color: yellow; /* show theme color on hover */
+}
+
+
+/*next previous arrow of gallery pop up end*/
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*swiper css ends*/
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
