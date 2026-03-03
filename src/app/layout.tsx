@@ -14,7 +14,9 @@ export default function RootLayout({children}: {children: ReactNode}){
       <body className="overflow-x-hidden">
       <Topnav />
       <Navbar />
+      <main>
         {children}
+      </main>
         <Footer />
         <WhatsAppButton />
       </body>

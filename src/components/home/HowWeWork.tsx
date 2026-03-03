@@ -1,8 +1,10 @@
+import FadeInUp from "@/components/ui/FadeInUp";
+
 export default function HowWeWork(){
     return(
         <section className="py-16 bg-gray-100">
             <div className="max-w-6xl mx-auto bg-gray ">
-                <h1 className="text-center text-2xl md:text-3xl font-bold pb-5 text-[var(--theme-primary)]">How We Work</h1>
+                <FadeInUp><h1 className="text-center text-2xl md:text-3xl font-bold pb-5 text-[var(--theme-primary)]"> We Work</h1></FadeInUp>
                 <div className="grid grid-cols-1 md:grid-cols-3 ">
 
                     <div className="bg-white p-3 m-3 rounded-lg border border-gray-300">

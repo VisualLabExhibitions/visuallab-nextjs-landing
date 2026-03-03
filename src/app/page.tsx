@@ -6,6 +6,7 @@ import ClientTestimonials from "@/components/home/ClientTestimonials";
 import Testimonial from "@/components/home/Testimonial";
 import OurWorks from "@/components/home/OurWorks";
 import HomePageSlider from "@/components/home/Banner";
+import HomeContact from "@/components/home/ContactUs";
 
 export default function HomePage(){
   return(
@@ -16,6 +17,7 @@ export default function HomePage(){
       <HowWeWork />
       <Testimonial />
       <OurWorks />
+      <HomeContact />
     </div>
   ); 
 }

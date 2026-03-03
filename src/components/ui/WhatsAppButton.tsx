@@ -7,7 +7,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       className="
-        fixed bottom-6 right-6
+        fixed bottom-16 md:bottom-6 right-6
         bg-green-500 text-white
         p-4 rounded-full shadow-xl
         flex items-center justify-center

@@ -5,6 +5,9 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import FadeInUp from "@/components/ui/FadeInUp";
+
+
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,9 +27,11 @@ export default function OurWorks() {
   return (
     <section className="py-16 bg-gray-100" id="our-works">
       <div className="max-w-6xl mx-auto px-4">
+        <FadeInUp>
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-[var(--theme-primary)]">
-          From concept to creation, our work defines exhibition excellence
+              From concept to creation, our work defines exhibition excellence
         </h2>
+        </FadeInUp>
 
         {/* Grid Gallery */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
@@ -34,7 +39,7 @@ export default function OurWorks() {
             <motion.div
               key={index}
               whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.1 }}
               className="rounded-xl shadow-xl hover:shadow-2xl transition duration-300 bg-white cursor-pointer"
               onClick={() => setSelectedIndex(index)}
             >

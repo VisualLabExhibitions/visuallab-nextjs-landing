@@ -3,6 +3,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaStar } from "react-icons/fa";
+import FadeInUp from "@/components/ui/FadeInUp";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -29,7 +30,7 @@ export default function Testimonial() {
         <div className="bg-black/40 py-16">
             <div className="max-w-6xl mx-auto">
 
-                <h2 className="pb-7 font-bold text-center text-2xl md:text-3xl text-white">What our Client Says</h2>
+                <FadeInUp><h2 className="pb-7 font-bold text-center text-2xl md:text-3xl text-white">What our Client Says</h2></FadeInUp>
                 
                  <Swiper
                  modules={[Navigation, Pagination, Autoplay]}

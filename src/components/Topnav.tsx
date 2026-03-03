@@ -7,7 +7,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function Topnav(){
     return(
 
-                <section className="bg-[var(--theme-primary)]">
+                <section className="bg-[var(--theme-primary)] ">
                     <div className="max-w-6xl mx-auto">
                         <div className="flex justify-between items-center p-2 text-white">
                         {/* Left side */}

@@ -1,9 +1,12 @@
+import FadeInUp from "@/components/ui/FadeInUp";
+
 export default function Services(){
     return (
         <div>
             <section className="bg-[var(--theme-primary)] py-8 md:py-16" id="services">
 
-                <div className="px-2 max-w-6xl text-white text-2xl md:text-3xl font-bold mx-auto text-center pb-4">Complete exhibition solutions from design to final installation.
+                <div className="px-2 max-w-6xl text-white text-2xl md:text-3xl font-bold mx-auto text-center pb-4">
+                    <FadeInUp>Complete exhibition solutions from design to final installation.</FadeInUp>
 </div>
 
                 <div className="services-section grid md:grid-cols-4 sm:grid-cols-2 gap-7 max-w-6xl mx-auto p-4">
